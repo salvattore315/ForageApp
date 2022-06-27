@@ -215,6 +215,9 @@
 				Base,
 			);
 			mainGroup = 2B3760242868C8D500D3218E;
+			packageReferences = (
+				2B4990E4286A4A50000EB278 /* XCRemoteSwiftPackageReference "forage" */,
+			);
 			productRefGroup = 2B37602E2868C8D500D3218E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -596,6 +599,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B4990E4286A4A50000EB278 /* XCRemoteSwiftPackageReference "forage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/salvattore315/forage.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2B3760252868C8D500D3218E /* Project object */;
 }
